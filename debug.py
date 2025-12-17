@@ -6,7 +6,7 @@ import numpy as np
 from datetime import datetime, timedelta
 import re
 
-# テストコミット
+# テストコミット02
 # Settings
 SPREADSHEET_ID = "1swzp4-ISlM769K_dKR1BpdwQSkV19YmhHZuzwaXQCdI"
 SHEET_NAME_DEBUG = "デバッグ"
