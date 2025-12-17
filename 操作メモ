@@ -4,6 +4,12 @@
 ファイルに移動
 cd "/Users/nj-cmd11/Documents/2025/05 ふるさと納税/潟上市/★こまち農場"
 
+GitHub更新
+git add .
+git commit -m "ヘッダーの文言修正"
+git push
+
+
 pythonの実行
 python3 search.py
 python3 download.py
