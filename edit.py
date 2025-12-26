@@ -247,9 +247,9 @@ def get_date_group(scheduled_date, shipped_date):
         try:
             date_obj = pd.to_datetime(scheduled_date)
             day = date_obj.day
-            if 1 <= day <= 2:
+            if 1 <= day <= 7:
                 return "2日グループ"
-            elif 3 <= day <= 10:
+            elif 8 <= day <= 10:
                 return "10日グループ"
             elif 11 <= day <= 17:
                 return "17日グループ"
@@ -263,9 +263,9 @@ def get_date_group(scheduled_date, shipped_date):
         try:
             date_obj = pd.to_datetime(shipped_date)
             day = date_obj.day
-            if 1 <= day <= 2:
+            if 1 <= day <= 7:
                 return "2日グループ"
-            elif 3 <= day <= 10:
+            elif 8 <= day <= 10:
                 return "10日グループ"
             elif 11 <= day <= 17:
                 return "17日グループ"

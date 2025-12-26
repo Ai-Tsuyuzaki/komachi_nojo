@@ -26,13 +26,13 @@ caffeinate -i python3 download.py
 crontab -e
 iで編集モード
 0 9 * * * caffeinate /Users/nj-cmd11/Documents/2025/05\ ふるさと納税/潟上市/★こまち農場/run_script.sh >> /tmp/furusato_cron.log 2>&1
-51 8 * * * caffeinate /Users/nj-cmd11/Documents/2025/05\ ふるさと納税/潟上市/★こまち農場/run_script.sh >> /tmp/furusato_cron.log 2>&1
+48 8 * * * caffeinate /Users/nj-cmd11/Documents/2025/05\ ふるさと納税/潟上市/★こまち農場/run_script.sh >> /tmp/furusato_cron.log 2>&1
 escで編集終了「:wq」で保存して終了
 
 ---------------------------------------------------------------------------
 
 土日の午前9時にスリープ解除
-sudo pmset repeat wakeorpoweron MTWRFSU 8:50:00
+sudo pmset repeat wakeorpoweron MTWRFSU 8:47:00
 
 設定した定期的なスリープ解除をすべて解除（あとでストップ）
 sudo pmset repeat cancel
